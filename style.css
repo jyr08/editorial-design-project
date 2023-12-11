@@ -3,6 +3,9 @@
 @import url(dancing-script.css);
 
 
+@import url("https://unpkg.com/open-props");
+
+
 html,
 body {
   margin: 0;
@@ -18,12 +21,23 @@ body {
 
 h1 {
   color: white;
-  font-size: 40px;
+  font-size: 55px;
   font-family: DancingScript-Regular;
+  animation: var(--animation-pulse);
+}
+h1:hover{
+  animation: var(--animation-ping);
 }
 
 p {
   color: whitesmoke;
+  font-style: bold;
+  
+}
+
+p:hover {
+  animation: var(--animation-float);
+  animation-duration: 3s;
 }
 /* Panel Defaults */
 .panel {
@@ -74,3 +88,4 @@ p {
 .five {
   background-image: url("BotanicalGarden.jpg");
 }
+
