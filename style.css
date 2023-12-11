@@ -1,4 +1,8 @@
 /* Setup Scrolling */
+
+@import url(dancing-script.css);
+
+
 html,
 body {
   margin: 0;
@@ -12,6 +16,15 @@ body {
   overflow-y: scroll;
 }
 
+h1 {
+  color: white;
+  font-size: 40px;
+  font-family: DancingScript-Regular;
+}
+
+p {
+  color: whitesmoke;
+}
 /* Panel Defaults */
 .panel {
   width: 100%;
@@ -41,21 +54,23 @@ body {
 }
 
 .one {
-  background-image: url("https://picsum.photos/1600/800?random=1");
+  background-image: url("oahu.jpg");
+  
 }
 
 .two {
-  background-image: url("https://picsum.photos/1600/800?random=2");
+  background-image: url("stairway.jpg");
+  
 }
 
 .three {
-  background-image: url("https://picsum.photos/1600/800?random=3");
+  background-image: url("Iolani.jpeg");
 }
 
 .four {
-  background-image: url("https://picsum.photos/1600/800?random=4");
+  background-image: url("waikiki.jpg");
 }
 
 .five {
-  background-image: "BotanicalGarden.jpg";
+  background-image: url("BotanicalGarden.jpg");
 }
